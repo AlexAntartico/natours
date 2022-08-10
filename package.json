@@ -1,0 +1,24 @@
+{
+  "name": "natours",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass ./sass/style.scss ./css/style.css",
+    "watch-css": "nodemon -e scss -x \"npm run compile:sass\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexAntartico/natours.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexAntartico/natours/issues"
+  },
+  "homepage": "https://github.com/AlexAntartico/natours#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.19"
+  }
+}
