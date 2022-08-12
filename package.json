@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "compile:sass": "node-sass ./sass/style.scss ./css/style.css",
-    "watch-css": "nodemon -e scss -x \"npm run compile:sass\""
+    "compile:sass": "node-sass ./sass/style.scss ./css/style.css -w"
   },
   "repository": {
     "type": "git",
